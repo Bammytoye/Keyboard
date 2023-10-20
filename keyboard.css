@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 130px;
+    background-color: rgb(255, 255, 255);
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    cursor: progress;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 5px 5px 5px 9px;
+    border-top-right-radius: 30px;
+    background-color: #cfbb03;
+    box-shadow: 0 0 10px rgba(172, 172, 172, 0.2);
+}
+
+.container:hover{
+    border-bottom-left-radius: 30px;
+    box-shadow: 0 0 10px rgba(13, 13, 13, 0.5);
+}
+
+.container .box span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    background-color: #1d2630;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.container .box span:hover {    
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    border: solid 1px #000;
+    font-weight: 700;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container .box .tilde {
+    width: 45px;
+    background-color: rgb(167, 6, 6);
+}
+
+.container .box .tilde:hover{
+    background-color: transparent;
+    border-color: white;
+    color: red;
+}
+
+.container .box .backspace {
+    width: 105px;
+    background-color: black;
+}
+
+.container .box .backspace:hover {
+    background-color: transparent;
+    border-color: white;
+    color: black;
+}
+
+.container .box .tab {
+    width: 75px;
+    background-color: aliceblue;
+    color: black;
+}
+
+.container .box .slash {
+    width: 75px;
+}
+
+.container .box .capslk {
+    width: 115px;
+    background-color: rgb(199, 199, 199);
+}
+
+.container .box .enter {
+    width: 110px;
+    background-color: red;
+}
+
+.container .box .enter:hover{
+    background-color: transparent;
+    border-color: white;
+    color: red;
+}
+.container .box .shift {
+    width: 150px;
+}
+
+.container .box .specialkeys {
+    width: 75px;
+}
+
+.container .box .space {
+    width: 520px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.container .box .space:hover{
+    background-color: white;
+    border-color: white;
+    color: red;
+}
+
+@media (min-width ) {
+    
+}
